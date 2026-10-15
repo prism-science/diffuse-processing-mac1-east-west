@@ -3,3 +3,8 @@
 	url = https://github.com/prism-science/diffuse-data-pub-mac1-east-west.git
 	datalad-id = f43bfbb0-5fd2-4f3b-ab7d-9f3f5be2e309
 	datalad-url = https://github.com/prism-science/diffuse-data-pub-mac1-east-west.git
+[submodule "inputs/raw/mac1-suboptimal"]
+	path = inputs/raw/mac1-suboptimal
+	url = https://github.com/prism-science/diffuse-data-pub-mac1-suboptimal.git
+	datalad-id = 9d958533-eaa1-4973-9f57-f944e86c8ddb
+	datalad-url = https://github.com/prism-science/diffuse-data-pub-mac1-suboptimal.git
