@@ -69,8 +69,8 @@ EOF
     # also scale with truncation at 1.25 ang.
     mkdir -p truncated
     dials.scale "${merge_inputs[@]}" d_min=1.25 \
-        output.expt=truncated/scaled.expt \
-        output.refl=truncated/scaled.refl \
+        output.experiments=truncated/scaled.expt \
+        output.reflections=truncated/scaled.refl \
         output.log=truncated/dials.scale.log \
         output.html=truncated/dials.scale.html \
         output.json=truncated/scaled_truncated.json
