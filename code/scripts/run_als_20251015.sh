@@ -17,12 +17,13 @@ REFERENCE_PDB="inputs/reference/7KQO.pdb"
 # fetch the reference dataset if needed
 ( cd "$REPO_ROOT" && datalad get "$REFERENCE_PDB" )
 
+# fetch the raw data if needed
+( cd "$RAW_DATA" && datalad get "$SUBDIR" )
+
 samples=()
 
 while read -r sample image range; do
     samples+=("$sample")
-    # fetch the raw data if needed
-    ( cd "$RAW_DATA" &&  datalad get "$SUBDIR/$sample/crystal" )
     (
         mkdir -p "$PROJECT_ROOT/$sample/dials"
         cd "$PROJECT_ROOT/$sample/dials"
