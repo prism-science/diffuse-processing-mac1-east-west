@@ -85,7 +85,7 @@ while read -r sample image range; do
         mdx2.bin_image_series data.nxs 5 10 10 --valid_range 0 100 --nproc $mdx2_nproc
     )
 done <<EOF
-mac1_2 mac1_2_bg_2_00001.cbf.cbf 1,360
+mac1_2 mac1_2_bg_2_00001.cbf 1,360
 mac1_4 mac1_4_bg_2_00001.cbf 1,360
 EOF
 
