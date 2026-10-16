@@ -1,4 +1,4 @@
 * annex.backend=MD5E
 **/.git* annex.largefiles=nothing
 * annex.largefiles=nothing
-results/** annex.largefiles=any
+results/** annex.largefiles=anything
