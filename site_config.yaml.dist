@@ -1,5 +1,8 @@
-chess_data_root: /local/storage/raw_data/2025-Q4/20251105_chess_id7b2_diffuse
-als_data_root: /local/storage/raw_data/2025-Q4/20251125_als_831_diffuse
-project_directory: /local/storage/steve/diffuse/mac1/east_west
-mdx2_nproc: 32
-dials_nproc: 32
+# Absolute path to the working directory for dials and mdx2 outputs.
+project_directory: 
+
+# Parallel jobs for mdx2 (nonzero integer; negative values follow joblib, e.g. -1 = all CPUs).
+mdx2_nproc: 
+
+# Parallel processes for DIALS (positive integer).
+dials_nproc: 
