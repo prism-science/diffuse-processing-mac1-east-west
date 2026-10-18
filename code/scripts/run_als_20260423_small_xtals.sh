@@ -28,7 +28,7 @@ while read -r sample image range; do
         mkdir -p "$PROJECT_ROOT/$sample/dials"
         cd "$PROJECT_ROOT/$sample/dials"
         cp "$REPO_ROOT/$REFERENCE_PDB" reference.pdb
-        dials.import "$RAW_DATA/$SUBDIR/$sample/crystal/$image" image_range=$range geometry.scan.oscillation=0,1
+        dials.import "$RAW_DATA/$SUBDIR/$sample/crystal/$image" image_range=$range geometry.scan.oscillation=0,0.1
         dials.find_spots imported.expt nproc=$dials_nproc
         dials.index imported.expt strong.refl space_group=P43
         dials.refine indexed.expt indexed.refl
