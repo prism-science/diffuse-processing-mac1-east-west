@@ -1,0 +1,8 @@
+# Absolute path to the working directory for dials and mdx2 outputs.
+project_directory: 
+
+# Parallel jobs for mdx2 (nonzero integer; negative values follow joblib, e.g. -1 = all CPUs).
+mdx2_nproc: 
+
+# Parallel processes for DIALS (positive integer).
+dials_nproc: 
