@@ -15,5 +15,5 @@ dependencies:
   - simple-parsing
   - papermill
   - pip:
-    - git+https://github.com/prism-science/mdx2.git@spm/cli-logging-config
+    - mdx2 @ git+https://github.com/ando-lab/mdx2.git@v1.0.5
     - git+https://github.com/FlexXBeamline/dials-extensions
