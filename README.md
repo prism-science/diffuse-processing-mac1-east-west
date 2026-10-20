@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1421244288.svg)](https://doi.org/10.5281/zenodo.23487517)
+
 # Diffuse scattering data processing for apo Mac1 (SARS-CoV-2 nsp3 macrodomain)
 
 This repository contains the [DIALS](https://dials.github.io) and [mdx2](https://github.com/prism-science/mdx2) processing scripts used to produce the diffuse scattering maps of apo Mac1 reported in:
