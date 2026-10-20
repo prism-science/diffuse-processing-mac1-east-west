@@ -2,18 +2,12 @@ channels:
   - conda-forge
 dependencies:
   - python == 3.14
+  - mdx2 == 1.0.5
   - dials == 3.27
   - nexusformat
   - pandas
   - scipy
-  - numexpr
-  - joblib
-  - matplotlib
   - ipykernel
   - xarray
-  - loguru
-  - simple-parsing
-  - papermill
   - pip:
-    - mdx2 @ git+https://github.com/ando-lab/mdx2.git@v1.0.5
     - git+https://github.com/FlexXBeamline/dials-extensions
