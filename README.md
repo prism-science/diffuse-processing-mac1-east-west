@@ -2,7 +2,7 @@
 
 This repository contains the [DIALS](https://dials.github.io) and [mdx2](https://github.com/prism-science/mdx2) processing scripts used to produce the diffuse scattering maps of apo Mac1 reported in:
 
-<!-- TODO: add article title and link -->
+Zielinski K, Meisburger S, Lu K, Bassim V, Holton J, Fraser JS, Ando N. (2026). Iterating diffuse scattering protocols in parallel leads to reproducible, high-quality data from Mac1. The Stacks. [DOI: 10.82153/hrpy-t681](https://doi.org/10.82153/hrpy-t681)
 
 It is a [DataLad](https://www.datalad.org) dataset intended for reproducibility and reuse. The processed results (mdx2 maps, MTZ files, reports, and logs) are tracked with git-annex and stored on the Open Storage Network (OSN). The source (raw) diffraction images are provided as DataLad subdatasets under `inputs/raw/`. Both are publicly available through anonymous access, with no credentials required.
 
